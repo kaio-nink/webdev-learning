@@ -1,0 +1,49 @@
+<!-- HTML forms 
+    Don't use a form inside another
+    <fieldset>: Group fields with a same purpose
+        Can be Disabled, link a Form and receive a Name
+        <legend>: Name a fieldset
+    <label>: Associate and identify input tags
+    
+    <button>: Used to submit or reset a form
+    <datalist>: Receive a list of inputs 
+    <input>: Receives inputs, like texts, emails, passwords...
+        Some inputs won't accept Readonly and Required attributes
+        It's not accescible use Placeholder instead of <label> tag
+        It's possible to set a Pattern for a password input and a Title for it, as so as set an Inputmode (like numeric)
+        Email input includes Multiple attribute, which is possible inputting emails separated by ,
+        Sending file input will require a form with method = POST and enctype = multipart/form-data
+        Checkbox input may have multiple values by setting their names equaly
+    <textarea> for larger texts
+    <optgroup>
+    Visit https://caniuse.com
+-->
+
+<form>
+
+    <fieldset action="">
+        <legend>Contato</legend>
+        <div>
+        <label for="name">Nome</label>
+        <br>
+        <input type="text" id="name" placeholder="Digite seu nome">
+        </div>
+        <br>
+        <div>
+        <label for="email">Email</label>
+        <br>
+        <input type="email" id="email" placeholder="exemplo@email.com">
+        </div>
+        <br>
+        <div>
+            <label for="message">Mensagem</label>
+            <br>
+            <textarea name="" id="message" cols="21" rows="5"></textarea>
+        </div>
+        <br>
+        <div>
+            <button type="submit">Enviar</button>
+        </div>
+    </fieldset>
+
+</form>
