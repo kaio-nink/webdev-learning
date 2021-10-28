@@ -1,0 +1,31 @@
+/* We have: 
+Element selector
+ID selector
+Class selector
+Attribute selector
+Pseudo-class selector
+Multiple selectors*/
+
+h1{
+    color: red;
+}
+
+#content {
+    color: blue;
+}
+
+.myclass{
+    color: brown;
+}
+
+[title] {
+    color: chartreuse;
+}
+
+.change:hover{
+    color: darkgreen;
+}
+
+h1:hover, p:hover, h2:hover{
+    background-color: darksalmon;
+}
