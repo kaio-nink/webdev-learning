@@ -35,20 +35,30 @@ main, header, footer {
 /* Header Manipulation */
 header {
     padding: 6px;
-    height: auto;
+    height: 60px;
 }
 
 nav{
     height: 48px;
     display: flex;
     justify-content: flex-end;
+    padding-right: 15px;
 }
 
 header .menu-items {
     display: flex;
     align-items: center;
-    gap: .8rem;
+    gap: 1.3rem;
     font-size: 13px;
+}
+
+.header-apps{
+    fill: #5f6368;
+    padding: 4px;
+}
+
+.header-account{
+    border-radius: 50%;
 }
 
 /* Main page Manipulation */
@@ -63,40 +73,99 @@ main {
 }
 
 main #google-search {
-    padding: 20px;
+    padding-top: 20px;
     min-width: 401px;
     max-height: 160px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-
-#search-bar {
-    flex: 1;
-    border: 1px solid #dfe1e5;
-    border-radius: 24px;
+svg{
+    height: 20px;
+    width: 20px;
+    fill: #9aa0a6;
+}
+form {
+    width: 100vw;
+    min-width: 441px;
+}
+.search-bar{
     height: 44px;
-    margin: 0 auto;
-    width: 300px;
+    width: 100vw;
+    border: 1px solid #bdc1c6;
+    border-radius: 24px;
+    max-width: 584px;
+    min-width: 358px;
+    margin-bottom: 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 
 
+#search-input {
+    border: none;
+    width: 80%;
+    min-width: 223px;
+    max-width: 447px;
+    height: 34px;
+    outline: none;
+    margin: 0;
+}
+
+.search-buttons input{
+    color: #3c4043;
+    background-color: #f8f9fa;
+    height: 36px;
+    min-width: 54px;
+    margin: 11px 4px;
+    border-radius: 4px;
+    border: 1px solid #f8f9fa;
+    padding: 0 16px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.search-buttons input:hover {
+    border-color: rgb(216, 216, 216)
+}
+
+.page-language {
+    color: #3c4043;
+    line-height: 28px;
+    font-size: small;
+}
+.page-language a{
+    color: #1a0dab;
+}
+
 /* Footer Manipulation */
+.brazil{
+    height: 48px;
+    color: #70757a;
+    background: #f2f2f2;
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+}
 
 footer {
+    background: #f2f2f2;
     display: flex;
     flex-wrap: wrap;
-    border: whitesmoke 2px solid;
+    border: #dadce0 1px solid;
+    color: #70757a;
     justify-content: space-between;
     align-items:center;
-    padding: 0 20px;
+    padding-right: 20px;
     height: 46px;
 }
 
 .footer-items1{
     display: flex;
     justify-content: center;
-    gap: 1rem;
+    gap: 30px;
     width: auto;
 }
 
