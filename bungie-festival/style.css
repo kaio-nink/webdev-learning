@@ -86,7 +86,7 @@ main div p.section-paragraph{
     font-weight: 400;
     line-height: 32px
 }
-
+/* Section 1 */
 main .section-hero{
     background-image: url("./assets/images/Section0_Hero.jpg");
     background-size: cover;
@@ -115,12 +115,12 @@ main .section-remember-lost {
     height: 1024px;
 }
 
+/* Section 2 */
 main .section-remember-lost .remember-lost-content{
-    background-image: url("./assets/images/Section1_Remember-The-Lost.jpg");
+    background-image: url("./assets/images/Section2_Remember-The-Lost.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50%;
-    border: 1px solid green;
     height: inherit;
     display: flex;
     align-items: center;
@@ -133,8 +133,35 @@ main .section-remember-lost .remember-lost-content .remember-lost-central{
     padding: 0 2rem;
 }
 main .section-remember-lost .remember-lost-content .remember-lost-central .remember-lost-text{ 
-    margin-right: 200px;
-    align-items: flex-end;
-    width: 448px;
+    margin-right: 10%;
+    width: 510px;
 }
 
+/* Section 3 */
+
+main .section-haunted{
+    background-color: rgb(14, 16, 29);
+    height: 1008px;
+}
+
+main .section-haunted .haunted-content{
+    background-image: url("./assets/images/Section3_Haunted-Sectors.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    height: inherit;
+    display: flex;
+    align-items: center;
+}
+
+main .section-haunted .haunted-content .haunted-central{
+    width: 100vw;
+    display: flex;
+    justify-content: flex-start;
+    padding: 0 2rem;
+}
+
+main .section-haunted .haunted-content .haunted-central .haunted-text{
+    margin-left: 10%;
+    width: 520px;
+}
