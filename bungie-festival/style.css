@@ -96,7 +96,6 @@ main .section-hero{
     padding-bottom: 5.5rem;
 }
 
-
 main .section-event-banner{
     background-color: rgb(61, 47, 135);
     z-index: 100;
@@ -110,12 +109,13 @@ main .section-event-banner p{
     letter-spacing: 9px;
 }
 
+/* Section 2 */
+
 main .section-remember-lost {
     background-color: rgb(14, 16, 29);
     height: 1024px;
 }
 
-/* Section 2 */
 main .section-remember-lost .remember-lost-content{
     background-image: url("./assets/images/Section2_Remember-The-Lost.jpg");
     background-size: cover;
@@ -124,17 +124,6 @@ main .section-remember-lost .remember-lost-content{
     height: inherit;
     display: flex;
     align-items: center;
-}
-
-main .section-remember-lost .remember-lost-content .remember-lost-central{
-    width: 100vw;
-    display: flex;
-    justify-content: flex-end;
-    padding: 0 2rem;
-}
-main .section-remember-lost .remember-lost-content .remember-lost-central .remember-lost-text{ 
-    margin-right: 10%;
-    width: 510px;
 }
 
 /* Section 3 */
@@ -146,6 +135,33 @@ main .section-haunted{
 
 main .section-haunted .haunted-content{
     background-image: url("./assets/images/Section3_Haunted-Sectors.jpg");
+}
+
+/* Section 4 */
+
+main .section-book-forgotten {
+    background-color: rgb(14, 16, 29);
+    height: 1024px;
+}
+
+main .section-book-forgotten .book-forgotten-content{
+    background-image: url("./assets/images/Section4_Book-of-the-Forgotten.jpg");
+}
+
+/* Section 5 */
+main .section-shh{
+    background-color: rgb(14, 16, 29);
+    height: 1130px;
+}
+
+main .section-shh .shh-content{
+    background-image: url("./assets/images/Section5_Shh.jpg");
+}
+
+/* Sections 2 and 4 commons*/
+main .section-remember-lost .remember-lost-content, 
+main .section-book-forgotten .book-forgotten-content 
+{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50%;
@@ -154,14 +170,163 @@ main .section-haunted .haunted-content{
     align-items: center;
 }
 
-main .section-haunted .haunted-content .haunted-central{
+main .section-remember-lost .remember-lost-content .remember-lost-central,
+main .section-book-forgotten .book-forgotten-content .book-forgotten-central
+{
     width: 100vw;
     display: flex;
-    justify-content: flex-start;
+    justify-content: flex-end;
     padding: 0 2rem;
 }
 
-main .section-haunted .haunted-content .haunted-central .haunted-text{
-    margin-left: 10%;
-    width: 520px;
+main .section-remember-lost .remember-lost-content .remember-lost-central .remember-lost-text,
+main .section-book-forgotten .book-forgotten-content .book-forgotten-central .book-forgotten-text
+{ 
+    margin-right: 10%;
+    width: 510px;
 }
+
+/* Sections 3 and 5 commons */
+main .section-haunted .haunted-content,
+main .section-shh .shh-content 
+{
+background-size: cover;
+background-repeat: no-repeat;
+background-position: 50%;
+height: inherit;
+display: flex;
+align-items: center;
+}
+
+main .section-haunted .haunted-content .haunted-central,
+main .section-shh .shh-content .shh-central
+{
+width: 100vw;
+display: flex;
+justify-content: flex-start;
+padding: 0 2rem;
+}
+
+main .section-haunted .haunted-content .haunted-central .haunted-text,
+main .section-shh .shh-content .shh-central .shh-text
+{
+margin-left: 10%;
+width: 520px;
+}
+
+/* Section 6 */
+main .section-teamdino{
+    background-color: rgb(14, 16, 29);
+    height: 1210px;
+}
+
+main .section-teamdino .teamdino-content{
+    background-image: url("./assets/images/Section6_TEAMDINO.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    height: inherit;
+    display: flex;
+    align-items: center;
+}
+
+main .section-teamdino .teamdino-content .teamdino-central .teamdino-text .section-label{
+    width: 171px;
+    margin: 0.5rem auto;
+}
+
+main .section-teamdino .teamdino-content .teamdino-central .teamdino-text .section-title{
+    height: auto;
+}
+
+main .section-teamdino .teamdino-content .teamdino-central .teamdino-screenshots {
+    margin: 2rem auto 5.6rem auto;
+}
+
+main .section-teamdino .teamdino-content .teamdino-central button {
+    width: 246px;
+    height: 160px;
+    margin-right: 2rem;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: cover;
+    border-radius: 3px;
+    border-color: gray;
+    border-width: 0.1px;
+}
+
+main .section-teamdino .teamdino-content .teamdino-central button:hover {
+    border: 1px solid white;
+    border-spacing: 15px;
+    transition: .25s;
+}
+
+
+main .section-teamdino .teamdino-content .teamdino-central .teamdino-st1 {
+    background-image: url("./assets/images/section6_media_screenshot_1.jpg");   
+}
+main .section-teamdino .teamdino-content .teamdino-central .teamdino-st2 {
+    background-image: url("./assets/images/section6_media_screenshot_2.jpg");   
+}
+main .section-teamdino .teamdino-content .teamdino-central .teamdino-st3 {
+    background-image: url("./assets/images/section6_media_screenshot_3.jpg");   
+}
+
+
+/* Section 7 */
+main .section-bump-night{
+    background-color: rgb(14, 16, 29);
+    height: 933px;
+}
+
+main .section-bump-night .bump-night-content{
+    background-image: url("./assets/images/Section7_Bump-in-the-Night.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    height: inherit;
+    display: flex;
+    align-items: center;
+}
+
+main .section-bump-night .bump-night-content .bump-night-central .bump-night-text .section-label{
+    border-bottom: 1px solid hsla(0,0%,96.1%,.75);
+    padding: 1rem 0;
+    margin: auto auto 7px;
+}
+
+main .section-bump-night .bump-night-content .bump-night-central .bump-night-text .section-title{
+    height: auto;
+    padding-bottom: 0;
+}
+
+main .section-bump-night .bump-night-content .bump-night-central .bump-night-text{
+    padding-bottom: 8rem;
+}
+
+main .section-bump-night .bump-night-content .bump-night-central .bump-night-text .section-paragraph{
+    margin: 0;
+}
+
+/* Sections 6 and 7 commons */
+
+main .section-teamdino .teamdino-content .teamdino-central,
+main .section-bump-night .bump-night-content .bump-night-central {
+width: 100vw;
+display: flex;
+flex-direction: column;
+align-items: center;
+align-self: flex-end;
+padding: 0 2rem;
+}
+
+main .section-teamdino .teamdino-content .teamdino-central .teamdino-text,
+main .section-bump-night .bump-night-content .bump-night-central .bump-night-text
+{
+text-align: center;
+width: 630px;
+}
+
+
+
+
